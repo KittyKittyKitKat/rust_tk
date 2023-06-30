@@ -1,0 +1,10 @@
+[package]
+name = "rust_tk"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_tk_macros = { version = "0.1.0", path = "rust_tk_macros" }
